@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(227, 227, 227);
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button {
+  color: rgb(227, 227, 227);
+  background-color: gray;
+  border-radius: 5px;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+}
+
+button:hover {
+  color: rgb(40, 251, 181);
+  cursor: pointer;
+}
+
+p {
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+ul {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+  padding-block: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+  color: white;
+}
+
+li {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+li strong {
+  color: rgb(40, 251, 181);
+}
