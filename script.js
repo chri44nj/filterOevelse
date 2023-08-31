@@ -75,6 +75,8 @@ function showAllUL() {
   allVehiclesUL.style.display = "block";
 }
 
+showAllUL();
+
 /* Electric vehicles */
 
 const showElectric = document.querySelector(".showElectric");
